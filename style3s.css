@@ -1,0 +1,188 @@
+
+
+
+*{
+    margin: 0px;
+    font-family: SYSTEM-UI;
+}
+.main {
+    background-image: url("./img/vegbag.jpg");
+    height: max-content;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.PAGE-TITLE{
+    background: rgba(0,0 ,0,0.5);
+    text-align: center;
+    color: white;
+    padding: 50PX;
+    font-variant:small-caps ;
+    font-size: 100px;
+    font-family: fantasy;
+    letter-spacing: 20px;
+}
+
+.menu {
+    background:  #184d47;
+    line-height: 65px;
+    
+
+}
+.menu-ul li:hover{
+    background: #60b387;
+    transform: scale(1.1);
+}
+
+
+.menu-ul li{
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 150px;
+}
+.a-menu,.a-inks{
+    text-decoration: none;
+   color: white;
+}
+.comtainer, .deals-container{
+    margin: 50px 50px 50px 5%;
+    width: 90%;
+    text-align: center;
+}
+
+.categories, .items{
+    width: max-content;
+    margin: 25px;
+    border: 1px solid #184d47;
+    border-radius: 0 0 50px 50px;
+    display: inline-block;
+}
+.categories:hover, .items:hover{
+    box-shadow: 0 0 10px 3px #184d47;
+}
+
+
+.item-images{
+    height: 165px;
+    width: 165px;
+    border-radius: 0 0 50px 50px;
+    padding: 10px;
+}
+.image-title{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.title{
+    padding: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color: white;
+    background: rgba(0,0,0,0.5);
+}
+
+.deal {
+    padding: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 20px;
+    max-width: 20%;
+    background: linear-gradient(120deg,#16817a 20%,#cee397 50%,#16817a 80%);
+}
+
+.parallax{
+    background: #184d47;
+    
+}
+.Deal-parallax{
+    background-image: url(./img/vegbagpic.jpg);}
+
+.veg-parallax{
+     background-image: url(./img/vegbagpic.jpg);}
+
+.parallax-fruts{
+    background-image: url(./img/vegbagpic.jpg);
+}
+.parallax-meat{
+    background-image: url(./img/vegbagpic.jpg);
+}
+.coupon-btn{
+    border: 1px solid #184d47;
+    background :brown;
+    padding: 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+}
+.coupon-btn:hover{
+    border: 1px solid rgb(17, 9, 9);
+    box-shadow: 0 0 10px 5px yellowgreen;
+}
+
+.images{
+    display: inline-block;
+
+}
+.item-images-size{
+    height: 190px;
+    width: 185px;
+    padding: 10px;
+}
+.description{
+    image-resolution: 20px;
+    min-height: 100px;
+
+}
+.item-select{
+    margin: 8px 0 0 0;
+
+}
+.buynow-btn{
+    border: 1px solid #184d47;
+    background: #184d47;
+    padding: 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+}
+.buynow-btn:hover{
+    border: 1px solid #5b8c5a;
+    box-shadow: 0 0 10px 5px #5b8c5a inset;
+}
+.parallaxl-footer{
+    background-image: url(./img/foot.jpg);
+    background: #0d2438;
+   
+}
+.footer{
+    background: rgba(0,0,0, 0.5 );
+    display: inline-block;
+
+    padding: 50px;
+}
+.quick-links{
+    color: rgb(189, 112, 77);
+    font-size: 25px;
+    font-weight: serif;
+    display: inline-block;
+    min-width: 20%;
+    margin-left: 150px;
+}
+.quick-links ul{
+    padding: 0;
+}
+.quick-links li{
+    list-style: none;
+    padding: 10px;
+    font-weight: 300;
+    
+}
+.a-inks:hover{
+    color: #fd5e53;
+}
